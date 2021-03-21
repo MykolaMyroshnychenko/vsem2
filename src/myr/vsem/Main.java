@@ -29,3 +29,16 @@ public class Main {
         System.out.println(c1.getTotalSurfaceArea());
     }
 }
+
+/*
+result:
+12.0
+18.0
+CutCone{radius1=12.0, radius2=18.0, height=23.0}
+false
+23.769728648009426
+2240.244146952278
+452.3893421169302
+1017.8760197630929
+3710.509508832301
+ */
