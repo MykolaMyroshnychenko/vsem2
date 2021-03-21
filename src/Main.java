@@ -1,5 +1,3 @@
-package myr.vsem.module2;
-
 import myr.vsem.module2.CutCone;
 
 
