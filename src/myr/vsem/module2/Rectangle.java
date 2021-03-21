@@ -62,3 +62,19 @@ public class Rectangle {
         return this.length * this.width;
     }
 }
+
+        /*Rectangle r1 = new Rectangle(3, 4);
+        Rectangle r2 = new Rectangle();
+        int l1 = r1.getLength();
+        System.out.println(l1);
+        r2.setLength(12);
+        r2.setWidth(21);
+        int l2 = r2.getLength();
+        System.out.println(l2);
+        System.out.println(r2.toString());
+        Rectangle r3 = new Rectangle(12,21);
+        System.out.println(r3.equals(r2));
+        System.out.println(r3.equals(r1));
+        System.out.println(r1.hashCode());
+        System.out.println(r2.hashCode());
+        System.out.println(r1.getArea());*/

@@ -1,28 +1,18 @@
 package myr.vsem;
 
 import myr.vsem.module2.CutCone;
-import myr.vsem.module2.Rectangle;
+
+/**
+ * @author Mykola Myroshnychenko
+ * @version 1.0.0
+ * @project myr.vsem
+ * @class CutCone
+ * @since 20.03.2021 - 16.28
+ */
 
 public class Main {
 
     public static void main(String[] args) {
-
-        /*Rectangle r1 = new Rectangle(3, 4);
-        Rectangle r2 = new Rectangle();
-        int l1 = r1.getLength();
-        System.out.println(l1);
-        r2.setLength(12);
-        r2.setWidth(21);
-        int l2 = r2.getLength();
-        System.out.println(l2);
-        System.out.println(r2.toString());
-        Rectangle r3 = new Rectangle(12,21);
-        System.out.println(r3.equals(r2));
-        System.out.println(r3.equals(r1));
-        System.out.println(r1.hashCode());
-        System.out.println(r2.hashCode());
-        System.out.println(r1.getArea());*/
-
         CutCone c1 = new CutCone(12, 18, 23);
         double r1 = c1.getRadius1();
         System.out.println(r1);
@@ -33,7 +23,9 @@ public class Main {
         System.out.println(c1.toString());
         System.out.println(c2.equals(c1));
         System.out.println(c1.getSlantHeight());
-
-
+        System.out.println(c1.getLateralSurfaceArea());
+        System.out.println(c1.getTopSurfaceArea());
+        System.out.println(c1.getBaseSurfaceArea());
+        System.out.println(c1.getTotalSurfaceArea());
     }
 }
