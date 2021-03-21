@@ -1,6 +1,7 @@
-package myr.vsem;
+package myr.vsem.module2.design;
 
-import myr.vsem.module2.CutCone;
+import myr.vsem.module2.design.CutCone;
+import myr.vsem.module2.inheritance.Roof;
 
 /**
  * @author Mykola Myroshnychenko
