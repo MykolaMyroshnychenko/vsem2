@@ -1,7 +1,9 @@
 package myr.vsem;
 
 import myr.vsem.module2.CutCone;
-
+import myr.vsem.module2.Roof;
+import myr.vsem.module2.Person;
+import myr.vsem.module2.Student;
 
 /**
  * @author Mykola Myroshnychenko
@@ -14,7 +16,7 @@ import myr.vsem.module2.CutCone;
 public class Main {
 
     public static void main(String[] args) {
-        CutCone c1 = new CutCone(12, 18, 23);
+  /*      CutCone c1 = new CutCone(12, 18, 23);
         double r1 = c1.getRadius1();
         System.out.println(r1);
         CutCone c2 = new CutCone();
@@ -28,8 +30,21 @@ public class Main {
         System.out.println(c1.getTopSurfaceArea());
         System.out.println(c1.getBaseSurfaceArea());
         System.out.println(c1.getTotalSurfaceArea());
+
+        Roof f1 = new Roof(12, 15, "Red", "Roof Tiles", true);
+        f1.setWidth(18);*/
+
+
+       /* Student s = new Student ("Mykola", "Myroshnychenko", "Serhiyovych", "26 Hrytsevets Street", 24.0, 1.88, 99.5, "MT4865412", "Blue", "+380997417176", "Music", "Programmer", false, "8.04.122.010.20.2", "5", "Computer science", "Information Technology", "Kots", "XA 13294828", 93.5, true, "Java programming", "Table Tennis", "Instagram", "Ivan");
+        System.out.println(s);*/
+
+        Roof f1 = new Roof (12,15,"Red","Roof tiles",false);
+        System.out.println(f1.getRoofCost());
+        Roof f2 = new Roof (12,15,"White","Slate",true);
+        System.out.println(f2.getRoofCost());
     }
 }
+
 
 /*
 result:
