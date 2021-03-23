@@ -17,7 +17,7 @@ public class Student extends Person {
     private String deansSurname;
     private String studentNumberID;
     private double averageScore;
-    private boolean englishSkills;
+    private String englishLevel;
     private String favoriteSubject;
     private String sportSection;
     private String socialNetworks;
@@ -28,7 +28,7 @@ public class Student extends Person {
 
     public Student(String groupCode, String numberOfStudents, String chair,
                    String department, String deansSurname, String studentNumberID,
-                   double averageScore, boolean englishSkills, String favoriteSubject,
+                   double averageScore, String englishLevel, String favoriteSubject,
                    String sportSection, String socialNetworks, String bestFriend) {
         this.groupCode = groupCode;
         this.numberOfStudents = numberOfStudents;
@@ -37,7 +37,7 @@ public class Student extends Person {
         this.deansSurname = deansSurname;
         this.studentNumberID = studentNumberID;
         this.averageScore = averageScore;
-        this.englishSkills = englishSkills;
+        this.englishLevel = englishLevel;
         this.favoriteSubject = favoriteSubject;
         this.sportSection = sportSection;
         this.socialNetworks = socialNetworks;
@@ -100,12 +100,12 @@ public class Student extends Person {
         this.averageScore = averageScore;
     }
 
-    public boolean isEnglishSkills() {
-        return englishSkills;
+    public String getEnglishLevel() {
+        return englishLevel;
     }
 
-    public void setEnglishSkills(boolean englishSkills) {
-        this.englishSkills = englishSkills;
+    public void setEnglishLevel(String englishLevel) {
+        this.englishLevel = englishLevel;
     }
 
     public String getFavoriteSubject() {
@@ -163,7 +163,7 @@ public class Student extends Person {
                 ", deansSurname='" + deansSurname + '\'' +
                 ", studentNumberID='" + studentNumberID + '\'' +
                 ", averageScore=" + averageScore +
-                ", englishSkills=" + englishSkills +
+                ", englishLevel='" + englishLevel + '\'' +
                 ", favoriteSubject='" + favoriteSubject + '\'' +
                 ", sportSection='" + sportSection + '\'' +
                 ", socialNetworks='" + socialNetworks + '\'' +
@@ -178,13 +178,13 @@ public class Student extends Person {
         if (!super.equals(o)) return false;
         Student student = (Student) o;
         return Double.compare(student.getAverageScore(), getAverageScore()) == 0 &&
-                isEnglishSkills() == student.isEnglishSkills() &&
                 Objects.equals(getGroupCode(), student.getGroupCode()) &&
                 Objects.equals(getNumberOfStudents(), student.getNumberOfStudents()) &&
                 Objects.equals(getChair(), student.getChair()) &&
                 Objects.equals(getDepartment(), student.getDepartment()) &&
                 Objects.equals(getDeansSurname(), student.getDeansSurname()) &&
                 Objects.equals(getStudentNumberID(), student.getStudentNumberID()) &&
+                Objects.equals(getEnglishLevel(), student.getEnglishLevel()) &&
                 Objects.equals(getFavoriteSubject(), student.getFavoriteSubject()) &&
                 Objects.equals(getSportSection(), student.getSportSection()) &&
                 Objects.equals(getSocialNetworks(), student.getSocialNetworks()) &&
@@ -195,7 +195,7 @@ public class Student extends Person {
     public int hashCode() {
         return Objects.hash(super.hashCode(), getGroupCode(), getNumberOfStudents(),
                 getChair(), getDepartment(), getDeansSurname(), getStudentNumberID(),
-                getAverageScore(), isEnglishSkills(), getFavoriteSubject(), getSportSection(),
+                getAverageScore(), getEnglishLevel(), getFavoriteSubject(), getSportSection(),
                 getSocialNetworks(), getBestFriend());
     }
 }
@@ -221,7 +221,7 @@ Information Technology
 Kots
 XA 13294828
 93.5
-true
+Intermediate
 Java programming
 Table Tennis
 Instagram

@@ -35,7 +35,7 @@ public class Main {
         f1.setWidth(18);*/
 
 
-       /* Student s = new Student ("Mykola", "Myroshnychenko", "Serhiyovych", "26 Hrytsevets Street", 24.0, 1.88, 99.5, "MT4865412", "Blue", "+380997417176", "Music", "Programmer", false, "8.04.122.010.20.2", "5", "Computer science", "Information Technology", "Kots", "XA 13294828", 93.5, true, "Java programming", "Table Tennis", "Instagram", "Ivan");
+       /* Student s = new Student ("Mykola", "Myroshnychenko", "Serhiyovych", "26 Hrytsevets Street", 24.0, 1.88, 99.5, "MT4865412", "Blue", "+380997417176", "Music", "Programmer", false, "8.04.122.010.20.2", "5", "Computer science", "Information Technology", "Kots", "XA 13294828", 93.5, "Intermediate", "Java programming", "Table Tennis", "Instagram", "Ivan");
         System.out.println(s);*/
 
         Roof f1 = new Roof (12,15,"Red","Roof tiles",false);
