@@ -1,4 +1,8 @@
-package myr.vsem.module2;
+package myr.vsem.module2.polymorphism;
+
+import myr.vsem.module2.polymorphism.interfaces.iGeometry;
+import myr.vsem.module2.polymorphism.interfaces.iPacking;
+import sun.security.util.Length;
 
 import java.util.Objects;
 
@@ -9,14 +13,14 @@ import java.util.Objects;
  * @class Rectangle
  * @since 21.03.2021 - 12.55
  */
-public class Rectangle {
+public class Rectangle2 implements iGeometry, iPacking {
     private int length;//создаем поля
     private int width;//создаем поля
 
-    public Rectangle() { //пустой конструктор
+    public Rectangle2() { //пустой конструктор
     }
 
-    public Rectangle(int length, int width) { //заполненый конструктор
+    public Rectangle2(int length, int width) { //заполненый конструктор
         this.length = length;
         this.width = width;
     }
@@ -49,7 +53,7 @@ public class Rectangle {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Rectangle rectangle = (Rectangle) o;
+        Rectangle2 rectangle = (Rectangle2) o;
         return getLength() == rectangle.getLength() && getWidth() == rectangle.getWidth();
     }
 
@@ -58,8 +62,32 @@ public class Rectangle {
         return Objects.hash(getLength(), getWidth());
     }
 
-    public int getArea(){
-        return this.length * this.width;
+    @Override
+    public double getPerimeter() {
+        return 2 * (this.getLength() + this.getWidth());
+    }
+
+    @Override
+    public double getArea() {
+        return this.getWidth() * this.getLength();
+    }
+
+    @Override
+    public String toJSON() {
+        String json = "Rectangle2" + "{" + "\"" + "length" + "\"" + ":" + this.getLength() +
+                "," +
+                "\"" + "width" + "\"" + ":" + this.getWidth() +
+                "}";
+        return json;
+    }
+
+    @Override
+    public String toXML() {
+        String xml = "<Rectangle2>" +
+                " + <length> " + this.getLength() + "</length>" +
+                " + <width> " + this.getWidth() + "</width>" +
+                "</Rectangle2>";
+        return xml;
     }
 }
 

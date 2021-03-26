@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * @author Mykola Myroshnychenko
  * @version 1.0.0
- * @project vsem.myr
+ * @project myr.vsem
  * @class Person
  * @since 22.03.2021 - 06.02
  */

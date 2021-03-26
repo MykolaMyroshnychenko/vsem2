@@ -4,6 +4,10 @@ import myr.vsem.module2.CutCone;
 import myr.vsem.module2.Roof;
 import myr.vsem.module2.Person;
 import myr.vsem.module2.Student;
+import myr.vsem.module2.polymorphism.interfaces.CutCone2;
+import myr.vsem.module2.polymorphism.interfaces.iPacking;
+import myr.vsem.module2.polymorphism.interfaces.iGeometry;
+import myr.vsem.module2.polymorphism.Rectangle2;
 
 /**
  * @author Mykola Myroshnychenko
@@ -42,6 +46,14 @@ public class Main {
         System.out.println(f1.getRoofCost());
         Roof f2 = new Roof (12,15,"White","Slate",true);
         System.out.println(f2.getRoofCost());
+        Rectangle2 rec2 = new Rectangle2(3,4);
+        System.out.println(rec2.toJSON());
+        System.out.println(rec2.toXML());
+        CutCone2 cut2 = new CutCone2(12,18,23);
+        System.out.println("Area = " + cut2.getArea());
+        System.out.println("Volume = " + cut2.getVolume());
+        System.out.println(cut2.toJSON());
+        System.out.println(cut2.toXML());
     }
 }
 
