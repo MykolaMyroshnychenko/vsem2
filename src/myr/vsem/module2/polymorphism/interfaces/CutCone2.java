@@ -1,8 +1,6 @@
 package myr.vsem.module2.polymorphism.interfaces;
 
 
-import myr.vsem.module2.polymorphism.interfaces.iGeometry2;
-import myr.vsem.module2.polymorphism.interfaces.iPacking2;
 import java.util.Objects;
 
 /**
@@ -12,7 +10,7 @@ import java.util.Objects;
  * @class CutCone
  * @since 20.03.2021 - 16.33
  */
-public class CutCone2 implements iGeometry2, iPacking2 {
+public class CutCone2 implements iGeometry, iPacking {
     //creating fields
     private double radius1;
     private double radius2;

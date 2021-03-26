@@ -1,8 +1,7 @@
 package myr.vsem.module2.polymorphism;
 
-import myr.vsem.module2.polymorphism.interfaces.iGeometry;
-import myr.vsem.module2.polymorphism.interfaces.iPacking;
-import sun.security.util.Length;
+import myr.vsem.module2.polymorphism.interfaces.iGeometry1;
+import myr.vsem.module2.polymorphism.interfaces.iPacking1;
 
 import java.util.Objects;
 
@@ -13,7 +12,7 @@ import java.util.Objects;
  * @class Rectangle
  * @since 21.03.2021 - 12.55
  */
-public class Rectangle2 implements iGeometry, iPacking {
+public class Rectangle2 implements iGeometry1, iPacking1 {
     private int length;//создаем поля
     private int width;//создаем поля
 

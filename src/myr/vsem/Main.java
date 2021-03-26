@@ -1,12 +1,7 @@
 package myr.vsem;
 
-import myr.vsem.module2.CutCone;
 import myr.vsem.module2.Roof;
-import myr.vsem.module2.Person;
-import myr.vsem.module2.Student;
 import myr.vsem.module2.polymorphism.interfaces.CutCone2;
-import myr.vsem.module2.polymorphism.interfaces.iPacking;
-import myr.vsem.module2.polymorphism.interfaces.iGeometry;
 import myr.vsem.module2.polymorphism.Rectangle2;
 
 /**
