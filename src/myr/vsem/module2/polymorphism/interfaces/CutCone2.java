@@ -9,7 +9,7 @@ import java.util.Objects;
  * @version 1.0.0
  * @project myr.vsem
  * @class CutCone2
- * @since 20.03.2021 - 16.33
+ * @since 25.03.2021 - 22.33
  */
 public class CutCone2 implements iGeometry, iPacking {
     //creating fields
