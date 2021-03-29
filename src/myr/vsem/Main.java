@@ -1,6 +1,6 @@
 package myr.vsem;
 
-import myr.vsem.module2.polymorphism.Roof;
+import myr.vsem.module2.Roof;
 import myr.vsem.module2.interfaces.CutCone2;
 import myr.vsem.module2.polymorphism.Rectangle2;
 

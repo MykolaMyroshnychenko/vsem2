@@ -1,4 +1,6 @@
-package myr.vsem.module2.polymorphism;
+package myr.vsem.module2;
+
+import myr.vsem.module2.polymorphism.Rectangle;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package myr.vsem.module2.polymorphism;
+package myr.vsem.module2;
 
 import java.util.Objects;
 
