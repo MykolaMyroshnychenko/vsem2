@@ -1,7 +1,7 @@
 package myr.vsem.module2.factory;
 
-import myr.vsem.module2.interfaces.iGeometry;
-import myr.vsem.module2.interfaces.iPacking;
+import myr.vsem.module2.polymorphism.interfaces.iGeometry;
+import myr.vsem.module2.polymorphism.interfaces.iPacking;
 
 import java.util.Objects;
 

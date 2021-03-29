@@ -1,4 +1,4 @@
-package myr.vsem.module2.interfaces;
+package myr.vsem.module2.polymorphism.interfaces;
 
 /**
  * @author Mykola Myroshnychenko

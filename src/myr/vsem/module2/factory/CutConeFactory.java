@@ -1,6 +1,6 @@
 package myr.vsem.module2.factory;
 
-import myr.vsem.module2.interfaces.CutCone2;
+import myr.vsem.module2.polymorphism.interfaces.CutCone2;
 
 /**
  * @author Mykola Myroshnychenko

@@ -7,7 +7,7 @@ package myr.vsem.module2.factory;
  * @class Circle
  * @since 29.03.2021 - 19.29
  */
-import myr.vsem.module2.interfaces.iGeometry;
+import myr.vsem.module2.polymorphism.interfaces.iGeometry;
 
 import java.util.Objects;
 

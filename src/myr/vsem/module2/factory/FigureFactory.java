@@ -8,10 +8,7 @@ package myr.vsem.module2.factory;
  * @since 29.03.2021 - 19.24
  */
 
-import myr.vsem.module2.factory.CutCone3;
-import myr.vsem.module2.factory.Circle;
-import myr.vsem.module2.factory.Cone;
-import myr.vsem.module2.interfaces.iGeometry;
+import myr.vsem.module2.polymorphism.interfaces.iGeometry;
 
 public class FigureFactory {
 
