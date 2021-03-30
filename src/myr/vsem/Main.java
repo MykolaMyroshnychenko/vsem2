@@ -1,8 +1,10 @@
 package myr.vsem;
 
 import myr.vsem.module2.Roof;
+import myr.vsem.module2.builder.MyInteger;
 import myr.vsem.module2.polymorphism.interfaces.CutCone2;
 import myr.vsem.module2.polymorphism.Rectangle2;
+import myr.vsem.module2.builder.MyInteger;
 
 /**
  * @author Mykola Myroshnychenko
@@ -49,8 +51,11 @@ public class Main {
         System.out.println("Volume = " + cut2.getVolume());
         System.out.println(cut2.toJSON());
         System.out.println(cut2.toXML());
+
+
     }
 }
+
 
 
 /*
