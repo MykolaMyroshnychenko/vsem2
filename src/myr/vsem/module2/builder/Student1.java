@@ -207,6 +207,22 @@ public class Student1 extends Person {
         public Builder() {
             this.student1ToBuild = new Student1();
         }
+        public Builder setSimilarTo(Student1 student1){
+            this.student1ToBuild.groupCode = student1.groupCode;
+            this.student1ToBuild.numberOfStudents = student1.numberOfStudents;
+            this.student1ToBuild.chair = student1.chair;
+            this.student1ToBuild.department = student1.department;
+            this.student1ToBuild.deansSurname = student1.deansSurname;
+            this.student1ToBuild.studentNumberID = student1.studentNumberID;
+            this.student1ToBuild.averageScore = student1.averageScore;
+            this.student1ToBuild.englishLevel = student1.englishLevel;
+            this.student1ToBuild.favoriteSubject = student1.favoriteSubject;
+            this.student1ToBuild.sportSection = student1.sportSection;
+            this.student1ToBuild.socialNetworks = student1.socialNetworks;
+            this.student1ToBuild.bestFriend = student1.bestFriend;
+            return this;
+        }
+
 
         public Builder setFirstName(String firstName){
             student1ToBuild.setFirstName(firstName);
