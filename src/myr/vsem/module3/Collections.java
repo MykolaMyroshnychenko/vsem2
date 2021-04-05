@@ -222,6 +222,11 @@ List size now 100000
 ----------LINKED LIST----------
 Create duration: 20 m.sec
 List size now 100000
+-------------------------------
+When create duration:
+array list is significantly
+faster than a linked list
+------------------------------
 --------------------INSERT--------------------
 ----------ARRAY LIST----------
 Insert on the beginning: 31 m.sec
@@ -229,18 +234,33 @@ List size now 101000
 ----------LINKED LIST----------
 Insert on the beginning: 0 m.sec
 List size now 101000
+-------------------------------
+When insert on the beginning:
+linked list is significantly
+faster than an array list
+-------------------------------
 ----------ARRAY LIST----------
 Insert on the middle: 9 m.sec
 List size now 102000
 ----------LINKED LIST----------
 Insert on the middle: 75 m.sec
 List size now 102000
+-------------------------------
+When insert on the middle:
+array list is significantly
+faster than a linked list
+-------------------------------
 ----------ARRAY LIST----------
 Insert on the end: 0 m.sec
 List size now 103000
 ----------LINKED LIST----------
 Insert on the end: 12 m.sec
 List size now 103000
+-------------------------------
+When insert on the end:
+array list is significantly
+faster than a linked list
+-------------------------------
 --------------------UPDATE--------------------
 ----------ARRAY LIST----------
 Update from the beginning: 0 m.sec
@@ -248,18 +268,33 @@ List size now 103000
 ----------LINKED LIST----------
 Update from the beginning: 1 m.sec
 List size now 103000
+------------------------------
+When update from the beginning:
+array list is 1 millisecond
+faster than a linked list
+------------------------------
 ----------ARRAY LIST----------
 Update of the middle: 1 m.sec
 List size now 103000
 ----------LINKED LIST----------
 Update of the middle 646 m.sec
 List size now 103000
+-------------------------------
+When update of the middle:
+array list is significantly
+faster than a linked list
+-------------------------------
 ----------ARRAY LIST----------
 Update on the end: 0 m.sec
 List size now 103000
 ----------LINKED LIST----------
 Update on the end 38 m.sec
 List size now 103000
+-------------------------------
+When update on the end:
+array list is significantly
+faster than a linked list
+-------------------------------
 --------------------DELETE--------------------
 ----------ARRAY LIST----------
 Delete from the beginning: 20 m.sec
@@ -267,18 +302,33 @@ List size now 102000
 ----------LINKED LIST----------
 Delete from the beginning: 0 m.sec
 List size now 102000
+-------------------------------
+When deleted from the beginning:
+the linked list is 20 milliseconds
+faster than the array list
+-------------------------------
 ----------ARRAY LIST----------
 Delete of the middle: 7 m.sec
 List size now 101000
 ----------LINKED LIST----------
 Delete of the middle 64 m.sec
 List size now 101000
+------------------------------
+When deleted from the middle:
+array list is significantly
+faster than a linked list
+------------------------------
 ----------ARRAY LIST----------
 Delete on the end: 0 m.sec
 List size now 100000
 ----------LINKED LIST----------
 Delete on the end 1 m.sec
 List size now 100000
+------------------------------
+When deleted on the end:
+array list is 1 millisecond
+faster than a linked list
+------------------------------
  */
 
 
