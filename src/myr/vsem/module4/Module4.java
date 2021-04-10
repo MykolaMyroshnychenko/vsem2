@@ -29,7 +29,7 @@ public class Module4 {
 
         System.out.println("The total number of logs - " + lines.length);
 
-        // The total number of ERROR logs. Use previous skills - String.split
+        // The total number of ERROR logs. Use previous skills - String.split. Way 1
 
         int counter = 0;
 
@@ -81,5 +81,8 @@ Way 3: ERRORS - 361
 Time of processing - 2074
 
 Conclusion:
-
+If we compare line splitting and file lines
+with each other, then file lines performed 1.8 times
+faster than line splitting. In this case, it is better
+to use file strings.
  */
